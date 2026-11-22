@@ -1,0 +1,11 @@
+{
+    "name": "CubeBurst.Core",
+    "rootNamespace": "CubeBurst.Core",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "noEngineReferences": true
+}

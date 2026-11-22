@@ -1,0 +1,13 @@
+{
+    "name": "CubeBurst.Core.Tests",
+    "rootNamespace": "CubeBurst.Core.Tests",
+    "references": ["CubeBurst.Core"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false,
+    "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+    "noEngineReferences": true
+}

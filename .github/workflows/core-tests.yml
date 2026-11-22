@@ -1,0 +1,17 @@
+name: core-tests
+
+# The game rules are plain C#, so they are tested with the .NET SDK on every
+# push. No Unity license or editor is needed for this job.
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "11.0.x"
+      - run: dotnet test tests/CubeBurst.Core.Tests
